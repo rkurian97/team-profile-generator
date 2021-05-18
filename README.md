@@ -1,10 +1,18 @@
 # team-profile-generator
 
-inquirer
-    prompts team manager info
-    gives option end team setup or add intern or add engineer
-    then goes to respective form. 
-classes
-    manager
-    intern
-    engineer
+## Purpose
+A team profile generator that outputs an html page with a team given user input through the command line. 
+
+## Built With
+* Javascript
+* Node.js
+* Inquirer
+* Jest
+* HTML
+* Bootstrap
+
+## Video
+
+
+## Contribution
+Made by Rohith Kurian. 
