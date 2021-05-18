@@ -28,3 +28,10 @@ test("gets employee email", ()=> {
     expect(employee.getEmail()).toEqual(expect.stringContaining(employee.email.toString()));
 
 });
+
+test("gets employee role", ()=> {
+    const employee= new Employee('Dave', 'dave@email.com', 2);
+
+    expect(employee.getRole()).toEqual('Employee');
+
+});
